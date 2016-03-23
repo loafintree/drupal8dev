@@ -1,0 +1,26 @@
+name: Light Skeleton
+type: theme
+description: 'A Simple Theme'
+# core: 8.x
+base theme: false
+screenshot: screenshot.gif
+libraries:
+  - light_skeleton/skeleton
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_first: 'Footer first column'
+  footer_second: 'Footer second column'
+  footer_third: 'Footer third column'
+  footer: 'Footer'
+
+# Information added by Drupal.org packaging script on 2016-02-13
+version: '8.x-1.0'
+core: '8.x'
+project: 'light_skeleton'
+datestamp: 1455336869

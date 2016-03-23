@@ -1,0 +1,16 @@
+<?php
+
+function light_skeleton_preprocess_breadcrumb(&$variables){
+    if(($node = \Drupal::routeMatch()->getParameter('node')) && $variables['breadcrumb']){
+// Adding the a divider of between home an the title of the page.
+        $variables['breadcrumb'][] = array(
+            'text' => '>'
+        );
+// Adding the title of the page in the breadcrumb
+        $variables['breadcrumb'][] = array(
+            'text' => $node->getTitle(),
+            'url' => $node->URL()
+        );
+
+    }
+}

@@ -1,0 +1,15 @@
+skeleton:
+  version: 2
+  js:
+    assets/js/light_skeleton.js: {}
+  dependencies:
+    - core/jquery
+  css:
+    theme:
+      vendor/skeleton/css/skeleton.css: {}
+      vendor/skeleton/css/style.css: {}
+      assets/css/light_skeleton.css: {}
+
+# Move assets to his custom library.
+
+
