@@ -1,0 +1,9 @@
+
+name: Bootstrap_sub
+type: theme
+base theme: Bootstrap
+description: 'A sub-theme of Bootstrap that will hopefully work.'
+core: 8.x
+package: custom
+libraries:
+  - 'bootstrap/theme/custom'
