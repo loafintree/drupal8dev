@@ -1,0 +1,9 @@
+
+name: skelly
+type: theme
+base theme: 'light_skeleton'
+description: 'A sub-theme of light_skeleton that will hopefully work.'
+core: 8.x
+# package: custom
+libraries:
+  - 'theme/custom'
