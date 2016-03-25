@@ -1,8 +1,8 @@
 
 name: skelly
 type: theme
-base theme: 'light_skeleton'
-description: 'A sub-theme of light_skeleton that will hopefully work.'
+base theme: 'bartrik'
+description: 'A sub-theme of bootstrap that will hopefully work.'
 core: 8.x
 # package: custom
 libraries:

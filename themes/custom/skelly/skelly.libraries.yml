@@ -1,4 +1,4 @@
 theme:
   css:
-    base:
+    theme:
       css/main.css: {}
