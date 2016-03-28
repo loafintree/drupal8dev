@@ -1,16 +1,22 @@
 // CSS stylesheet
-body { background: #ddd; color:#000; }
-h1, h2, h3, h4 {font-weight: bold;}
+body { background: #ddd; color:#000; margin: 0; margin-right: 0!important; margin-left: 0!important; padding: 0; width:100%;}
+h1, h2, h3, h4 {font-weight: bold; }
+#page-wrapper { margin: 0; padding: 0; width: 100%; }
 .title_page { color: hotpink; }
-.content { max-width: 960px; margin: 0 auto; }
-/* .container { max-width:960px; } */
+/*.content { max-width: 960px; margin: 0 auto; } */
+.container { max-width:100%; width:100%; }
 a { color:#CE00C4; }
-ul { list-style:none; padding: 2rem 1rem;}
+ul { list-style:none; padding: 2rem 1rem; }
+li { margin-bottom: 0; font-weight: bold; }
 .navbar { display: block; background: #999; z-index: 99; border-top: 1px solid #eee; border-bottom: 1px solid #eee; margin: 0 auto; margin-bottom: 14px; }
-.navbar-link { line-height: 2.5rem;}
+.navbar-link { line-height: 2.5rem; }
 #menu { background: transparent; padding-left: 3rem; border-bottom: none;}
 img { margin: 1rem 0;}
-img.align-left { margin: 1rem 2rem 1rem 0;}
-img.align-right { margin: 1rem 0 1rem 2rem;}
+img.align-left { margin: 1rem 2rem 1rem 0; }
+img.align-right { margin: 1rem 0 1rem 2rem; }
 .button { rgba(17, 220, 255, 0.56); }
 .navbar-item a { font-size: 1.3rem; }
+.breadcrumb { font-size: small; }
+#main-wrapper { margin: 0 6rem; }
+.site-footer { margin: 1rem 6rem; }
+.breadcrumb { float: left; }
